@@ -5,7 +5,7 @@
 An interactive simulation of relativistic physics and gravitational lensing effects in the vicinity of a static black hole. Written in **C++17** using **OpenGL**, this project visualizes how an intense gravitational field warps the trajectories of light rays (photons) according to Einstein's General Theory of Relativity within the Schwarzschild metric.
 
 ## Simulation Demo
-<video src="media/demo.mp4" width="100%" controls autoplay loop muted></video>
+https://github.com/user-attachments/assets/99a70baf-ab0a-44f2-90bb-47a4107d695f
 
 ---
 
