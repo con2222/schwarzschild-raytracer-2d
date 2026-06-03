@@ -111,3 +111,7 @@ cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE="D:/vcpkg/scripts/buildsystems/vcpkg.
 ```bash
 cmake --build build
 ```
+
+## Credits
+
+This project was built as part of the guided tracks on the [HelloC++](https://www.hellocpp.dev/) learning platform, focusing on modern C++ and interactive graphics simulations.
