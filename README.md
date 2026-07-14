@@ -7,7 +7,6 @@ An interactive simulation of relativistic physics and gravitational lensing effe
 ## Simulation Demo
 https://github.com/user-attachments/assets/99a70baf-ab0a-44f2-90bb-47a4107d695f
 
----
 
 ## Simulation Scenarios
 
@@ -17,7 +16,6 @@ The engine sequentially triggers three distinct physical scenarios distributed a
 2. **Point Source Rays (Starts at Frame 180):** A cone of light rays is emitted from a single localized source (e.g., a distant star or probe). This showcases the beam splitting effect: some rays fall into the singularity, some graze it, and others escape with severe deflections.
 3. **Parallel Rays / Gravitational Lensing (Starts at Frame 360):** A flat wavefront of parallel rays emulates light arriving from an infinitely distant celestial object. As they pass the black hole, they focus and distort, demonstrating classical gravitational lensing.
 
----
 
 ## Customization & Experiments (`constants.h`)
 
@@ -67,7 +65,6 @@ namespace Simulation {
 * **Overlapping Timelines:** By setting `POINT_SOURCE_START` and `PARALLEL_START` to `0`, you can force all scenarios to run simultaneously right from launch, rendering a massive grid of interacting light vectors.
 * **Ray Density:** To adjust the total number of light rays generated, simply change the iteration counts in the `generatePointSourceRays` and `generateParallelRays` loops inside `main.cpp`.
 
----
 
 ## Project Architecture
 
@@ -79,7 +76,6 @@ The codebase relies on a modular architecture:
 * `rendering.h` / `rendering.cpp` — An OpenGL-powered `RenderEngine` abstraction wrapper handling GLFW window bounds, frame buffering, and raw vertex drawing operations.
 * `main.cpp` — App entry point orchestrating simulation sequences and managing the global runtime loop.
 
----
 
 ## Building and Running
 
